@@ -1,0 +1,52 @@
+html, body{
+    max-width: 100%;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1{
+    
+    padding-top: 12rem;
+}
+
+p{
+    text-align: center;
+}
+
+a:link, a:visited {
+    color: rgb(62, 62, 190);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: rgb(0, 0, 255);
+}
+
+p, h1 {
+    color: white;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.content{
+    background-color: #e1f4f3;
+    height: 30rem;
+    padding: 20px;
+}
+
+.header{
+    height: 26rem;
+    background-color: #333333;
+    margin: 0;
+}
+
+.footer{
+    height: 12rem;
+    background-color: #706c61;
+}
